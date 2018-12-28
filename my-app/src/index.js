@@ -23,7 +23,7 @@ class LoginBox extends React.Component {
                 <div className="box">
 
                     <div className="input-group">
-                        <label htmlFor="username">Username</label>
+                        <label htmlFor="username" className="login-label">Username</label>
                         <input
                             type="text"
                             name="username"
@@ -32,7 +32,7 @@ class LoginBox extends React.Component {
                     </div>
 
                     <div className="input-group">
-                        <label htmlFor="password">Password</label>
+                        <label htmlFor="password" className="login-label">Password</label>
                         <input
                             type="password"
                             name="password"
@@ -173,7 +173,7 @@ class RegisterBox extends React.Component {
                 <div className="box">
 
                     <div className="input-group">
-                        <label htmlFor="username">Username</label>
+                        <label htmlFor="username" className="login-label">Username</label>
                         <input
                             type="text"
                             name="username"
@@ -189,7 +189,7 @@ class RegisterBox extends React.Component {
                     </div>
 
                     <div className="input-group">
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="email" className="login-label">Email</label>
                         <input type="text" name="email" className="login-input" placeholder="Email" 
                             onChange={this
                                 .onEmailChange
@@ -201,7 +201,7 @@ class RegisterBox extends React.Component {
                     </div>
 
                     <div className="input-group">
-                        <label htmlFor="password">Password</label>
+                        <label htmlFor="password" className="login-label">Password</label>
                         <input
                             type="password"
                             name="password"
